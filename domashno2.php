@@ -7,7 +7,7 @@
 		echo $a." IS divisible by ".$b;
 	}
 
-	elseif($b % 1 == 0)  {
+	elseif(($a + 1) % 1 == 0)  {
     	echo $a." is NOT divisible by ".$b;
 	}
 
